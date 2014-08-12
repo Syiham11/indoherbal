@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="#f8f9fe">
+	<include layout="@layout/actionbar_layout"/>
+	
+	<TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="15dip"
+		    android:text="Berat Ideal"
+		    android:textColor="#ff29549f"
+		    android:textSize="15dip"
+		    android:textStyle="bold" />
+	
+<TextView
+    android:id="@+id/label1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/etxbb" >
+
+</TextView>
+
+<EditText
+
+android:id="@+id/edBerat"
+
+android:text=""
+
+android:layout_width="fill_parent"
+
+android:layout_height="wrap_content"
+
+android:inputType="numberSigned|numberDecimal">
+
+</EditText>
+
+<TextView
+    android:id="@+id/label2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/etxtb" >
+
+</TextView>
+
+<EditText
+
+android:id="@+id/edTinggi"
+
+android:text=""
+
+android:layout_width="fill_parent"
+
+android:layout_height="wrap_content"
+
+android:inputType="numberSigned|numberDecimal">
+
+</EditText>
+
+
+
+<Button
+    android:id="@+id/btnKalkulasi"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="doKalkulasi"
+    android:text="@string/bt_kalkulasi"
+    android:background="@drawable/button_biru" >
+
+</Button>
+
+<Button
+    android:id="@+id/btnKembali"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="BackMainMenu"
+    android:text="@string/btmenu" 
+    android:background="@drawable/button_biru">
+
+</Button>
+
+</LinearLayout>

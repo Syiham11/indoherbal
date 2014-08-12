@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="#f8f9fe">
+	<include layout="@layout/actionbar_layout"/>
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content">
+
+		<TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="15dip"
+		    android:text="Temukan Herbal Anda"
+		    android:textColor="#ff29549f"
+		    android:textSize="15dip"
+		    android:textStyle="bold" />
+			
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/TextView01"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Jenis Sakit : (gunakan huruf kecil)" />
+
+    <EditText
+        android:id="@+id/txtsakit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnTerjemah"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_biru"
+        android:onClick="getHerbal"
+        android:text="Cari" >
+    </Button>
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obat Herbal :" >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtobat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara Mengolah :" />
+
+    <EditText
+        android:id="@+id/txtolah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.46"
+        android:ems="10"
+         android:editable="false" >
+
+        <requestFocus />
+    </EditText>
+	
+
+</LinearLayout>

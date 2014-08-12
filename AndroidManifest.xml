@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="herbal.id"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name="herbal.id.IndoherbalActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+	
+        <!-- News Feed Activity -->
+
+        <!-- Friends Activity -->
+
+        <!-- Messages Activity -->
+
+        <!-- Places Activity -->
+
+        <!-- Events Activity -->
+        
+        <!-- Photos Activity -->
+        <activity android:name="HerbalActivity"></activity>
+        
+       <activity android:name="HerbalEduActivity"></activity>
+        <activity android:name="NutritionActivity"></activity>
+        <activity android:name="AboutActivity"></activity>
+        <activity android:name="bbactivity"></activity>
+        <activity android:name="beratideal"></activity>
+        <activity android:name="beratnormal"></activity>
+        <activity android:name="HerbalEduActivity"></activity>
+    </application>
+
+</manifest>

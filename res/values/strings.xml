@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, IndoherbalActivity!</string>
+    <string name="app_name">Indoherbal</string>
+    <string name="etbb">Berat Badan</string>
+    <string name="ettb">Tinggi Badan</string>
+    <string name="bt_kalkulasi">Kalkulasi</string>
+    <string name="btmenu">Menu</string>
+    <string name="etxbb">Berat Badan</string>
+    <string name="etxtb">Tinggi Badan</string>
+
+</resources>
